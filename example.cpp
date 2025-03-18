@@ -51,3 +51,15 @@ void insertionSort()
         arr[j + 1] = temp; //step 5
     }
 }
+
+void display()
+{
+    cout << endl; //output garis kosong
+    cout << "=================================" << endl;
+    cout << "Total pass = " << n - 1 << endl; // count element movement
+    cout << "=================================" << endl; // output ke layar
+    cout << "element array yang telah tersusun" << endl; // output ke layar
+    cout << "=================================" << endl; // output ke layar
+
+    for (int j = 0; j < n; j++)
+}
