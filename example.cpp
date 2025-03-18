@@ -65,4 +65,6 @@ void display()
     { // looping dengan j dimulai dari 0 hingga n-1
         cout << arr[j] << endl; // output baris kosong 
     }
+    
+    int main()
 }
